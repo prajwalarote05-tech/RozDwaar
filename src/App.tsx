@@ -22,7 +22,7 @@ import { User, Job, Application, Role } from './types';
 // --- Components ---
 
 const Navbar = ({ user, onLogout, onNavigate, onPostGig }: { user: User | null, onLogout: () => void, onNavigate: (page: string) => void, onPostGig?: () => void }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);https://github.com/prajwalarote05-tech/RozDwaar/tree/main
 
   return (
     <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
@@ -30,8 +30,8 @@ const Navbar = ({ user, onLogout, onNavigate, onPostGig }: { user: User | null, 
         <div className="flex justify-between h-16">
           <div className="flex items-center cursor-pointer" onClick={() => onNavigate('home')}>
             <div className="flex flex-col">
-              <span className="text-2xl font-display font-bold text-primary leading-none">Quick-Gig</span>
-              <span className="text-[10px] uppercase tracking-widest text-secondary font-semibold">Go - Help - Earn</span>
+              <span className="text-2xl font-display font-bold text-primary leading-none">RozDwaar</span>
+              <span className="text-[10px] uppercase tracking-widest text-secondary font-semibold">"Open the Door to Daily Work & Earning Opportunities"</span>
             </div>
           </div>
 
@@ -884,8 +884,8 @@ export default function App() {
       <footer className="bg-white border-t border-slate-200 py-8 px-4 mt-12">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-xl font-display font-bold text-primary">Quick-Gig</span>
-            <span className="text-xs text-slate-400">© 2026 Quick-Gig Marketplace. All rights reserved.</span>
+            <span className="text-xl font-display font-bold text-primary">RozDwaar</span>
+            <span className="text-xs text-slate-400">© 2026 RozDwaar Marketplace. All rights reserved.</span>
           </div>
           <div className="flex space-x-6 text-sm font-medium text-slate-500">
             <a href="#" className="hover:text-primary">Terms</a>
