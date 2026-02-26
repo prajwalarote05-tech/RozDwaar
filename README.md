@@ -2,19 +2,50 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+RozDwaar 🚀
 
-This contains everything you need to run your app locally.
+Open the Door to Daily Work & Earning Opportunities
 
-View your app in AI Studio: https://ai.studio/apps/a3e3325f-babe-4b54-b31f-b5f1826fab35
+RozDwaar is a short-term gig marketplace connecting local workers and businesses needing immediate help.
 
-## Run Locally
+🌟 Features
 
-**Prerequisites:**  Node.js
+Post temporary gigs in seconds
+
+Apply to jobs with a single tap
+
+Worker and Employer roles
+
+Dashboard management
+
+Localized gig search (location + date filter)
+
+Instant marketplace matching concept
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🛠 Tech Stack
+
+React + TypeScript
+
+Tailwind CSS
+
+Vite
+
+Node.js backend API
+
+Local storage session persistence
+
+
+📌 How to Run
+
+npm install
+npm run dev
+
+👨‍💻 Project Status
+
+MVP Stage
+
+Under active development
+
+
+© 2026 RozDwaar Marketplace
